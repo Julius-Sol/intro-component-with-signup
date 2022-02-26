@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+  --Blue: hsl(248, 32%, 49%);
+  --Dark-Blue: hsl(249, 10%, 26%);
+  --Grayish-Blue: hsl(246, 25%, 77%);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: url(/images/bg-intro-mobile.png) var(--Red);
+}
+
+/*=====================
+      Typogrophy
+=======================*/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.article-title {
+  color: white;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.article-text {
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5em;
+}
+
+.article-container {
+  text-align: center;
+}
+
+.form-font {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.terms {
+  color: var(--Grayish-Blue);
+  font-size: 0.7rem;
+}
+
+.terms-link {
+  color: var(--Red);
+  font-size: 0.7rem;
+}
+
+.submit-btn {
+  color: white;
+  font-size: 1rem;
+}
+
+.trial {
+  color: white;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.trial-days {
+  font-weight: 700;
+}
+
+/*=====================
+      Layout
+=======================*/
+
+.container {
+  width: min(90%, 400px);
+  margin: 6em auto 0;
+}
+
+.article-container {
+  margin-bottom: 5em;
+}
+
+.trial-container {
+  background-color: var(--Blue);
+  text-align: center;
+  padding: 0.5em;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+/* Form */
+
+.trial-form {
+  text-align: center;
+  padding: 1.5em 2em;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.trial-form input {
+  border: 1px solid #ccc;
+  width: 90%;
+  margin-bottom: 1em;
+  padding: 0.7em;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: var(--Green);
+  padding: 1em 0.5em;
+  border: 1px;
+  border-radius: 10px;
+}
+
+.terms {
+  margin-top: 0;
+}
+
+footer {
+  position: fixed;
+  margin-top: 1em;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 30px;
+  background: grey;
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background: url(/images/bg-intro-desktop.png) var(--Red);
+  }
+  .container {
+    width: min(80%, 1200px);
+    margin: 6em auto;
+    display: flex;
+    gap: 6em;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .article-title {
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+
+  .article-text {
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5em;
+  }
+
+  .article-container {
+    margin: 0;
+  }
+
+  .article-title {
+    margin: 0 0 0.5em 0;
+  }
+}
