@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://julius-sol.github.io/intro-component-with-signup/)
+- Live Site URL: [intro-component-with-signup](https://julius-sol.github.io/intro-component-with-signup/)
 
 ## My process
 
