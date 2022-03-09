@@ -13,8 +13,6 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
